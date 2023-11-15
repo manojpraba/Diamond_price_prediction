@@ -49,13 +49,13 @@ Follow following steps:
    
 3. Go to  **localhost:5000**
 
-![Home Page](https://github.com/Ahmad10Raza/Diamond-Price-Prediction/blob/master/templates/Images/home.png)
+![Home Page](https://github.com/manojpraba/Diamond_price_prediction/blob/main/templates/Images/Home.png)
 
 4. Click On Get Started
   
 6. Enter Required Information:
 
-![Prediction Page](https://github.com/Ahmad10Raza/Diamond-Price-Prediction/blob/master/templates/Images/predict.png)
+![Prediction Page](https://github.com/manojpraba/Diamond_price_prediction/blob/main/templates/Images/predict.png)
 
 
 # Thank You!
