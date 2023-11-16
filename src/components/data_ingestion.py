@@ -35,8 +35,8 @@ class DataIngestion:
             logging.info("Train test split")
             train_set,test_set=train_test_split(df,test_size=0.30,random_state=42)
 
-            train_set.to_csv(self.ingestion_config.train_data_path,index=False,header=True)
-            test_set.to_csv(self.ingestion_config.test_data_path,index=False,header=True)
+            train_set.to_csv(self.ingestion_config.train_data_path,index=False)
+            test_set.to_csv(self.ingestion_config.test_data_path,index=False)
 
             logging.info('Ingestion of data is completed')
 
@@ -50,6 +50,7 @@ class DataIngestion:
 
         except Exception as e:
             logging.info('Error occured in Data Ingestion config')
+            raise CustomException(e,sys)
 
 
 
